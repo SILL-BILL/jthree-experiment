@@ -5,8 +5,8 @@
 	<body>
 		<scene>
 
-			<mmd model="../../common/jthree/model/miku/index.pmx" />
-			<obj model="../../common/jthree/stage/gekido/index.x" style="scale: 10; positionY: -46.5; rotateY: 1.57;"></obj>
+			<mmd model="model/miku/index.pmx" />
+			<obj model="stage/gekido/index.x" style="scale: 10; positionY: -46.5; rotateY: 1.57;"></obj>
 
 			<camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
 				<light type="Dir" style="position: 1 3 5;" />
