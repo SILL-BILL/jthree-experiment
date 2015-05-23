@@ -3,7 +3,7 @@
 		<txr id="txr1" src="img/earth.jpg" />
 		<geo id="geo1" type="Sphere" param="10 64 64" />
 		<mtl id="mtl1" type="MeshPhong" param="map: #txr1; bumpScale: 0.3; specular: #fff;" />
-		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;" />
+		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #000;" />
 	</head>
 	<body>
 		<scene>
