@@ -29,7 +29,7 @@
 			<sprite mtl="#mtl2" style="scale: 100; positionZ: -500;" />
 			<sprite mtl="#mtl3" style="scaleX: 3; positionY: 22;" />
 
-			<camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
+			<camera style="cameraFar: 10000; position: 2 18 70; lookAtY: 10;">
 				<light type="Dir" style="position: 1 3 5;" />
 			</camera>
 			<light type="Amb" style="lightColor: #555;" />
