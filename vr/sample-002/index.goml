@@ -12,7 +12,7 @@
 		<txr id="EarthTxr" src="../../common/jthree/img/earth.jpg" />
 		<mtl id="mtl2" type="MeshPhong" param="map: #EarthTxr; bumpScale: 0.3; specular: #fff;"/>
 
-		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;" />
+		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;"/>
 	</head>
 	<body>
 		<scene>
