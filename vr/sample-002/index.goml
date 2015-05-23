@@ -8,7 +8,7 @@
 		<txr id="groundTxr" src="../../common/jthree/img/ground.jpg" param="repeat: 50; wrap: 0;" />
 		<mtl id="mtl1" type="MeshLambert" param="map: #groundTxr;"/>
 
-		<geo id="geo2" type="Circle" param="200 64" />
+		<geo id="geo2" type="Sphere" param="10 64 64" />
 		<txr id="EarthTxr" src="../../common/jthree/img/earth.jpg" />
 		<mtl id="mtl2" type="MeshPhong" param="map: #EarthTxr; bumpScale: 0.3; specular: #fff;"/>
 
