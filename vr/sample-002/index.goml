@@ -1,11 +1,11 @@
 <goml>
 	<head>
 	    <geo type="Sphere" param="200 64 64" />
-		<txr id="blueSky" src="img/sky.png" />
+		<txr id="blueSky" src="../../common/jthree/img/sky.png" />
 		<mtl type="MeshBasic" param="map: #blueSky; side: 1;"/>
 
 		<geo type="Circle" param="200 64" />
-		<txr id="groundTxr" src="img/ground.jpg" param="repeat: 50; wrap: 0;" />
+		<txr id="groundTxr" src="../../common/jthree/img/ground.jpg" param="repeat: 50; wrap: 0;" />
 		<mtl type="MeshLambert" param="map: #groundTxr;"/>
 
 		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;" />
@@ -15,7 +15,7 @@
 			<mesh geo="[type='Sphere']" mtl="[type='MeshBasic']" />
 			<mesh geo="[type='Circle']" mtl="[type='MeshLambert']" style="positionY: -.5; rotateX: -1.57;" />
 			
-			<mmd id="" model="model/miku/index.pmx" motion="motion/melt.vmd" style=""></mmd>
+			<mmd id="" model="../../common/jthree/model/miku/index.pmx" motion="../../common/jthree/motion/melt.vmd" style=""></mmd>
 
 			<camera style="cameraFar: 100000; position: 0 13 20; lookAtY: 13;" />
 			<light type="Amb" />
