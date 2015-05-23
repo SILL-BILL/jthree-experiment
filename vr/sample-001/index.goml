@@ -1,12 +1,14 @@
 <goml>
 	<head>
+		<geo id="geo1" type="Sphere" param="10 64 64" />
+		<mtl id="mtl1" type="MeshPhong" param="color: #0ff; specular: #fff;" />
 		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;" />
 	</head>
 	<body>
 		<scene>
 
 			<mmd model="model/miku/index.pmx" />
-			<obj model="stage/gekido/index.x" style="scale: 10; position: 0 -46.5 0; rotateY: 1.57;"></obj>
+			<mesh geo="#geo1" mtl="#mtl1"></mesh>
 			<camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
 				<light type="Dir" style="position: 1 3 5;" />
 			</camera>
