@@ -5,11 +5,13 @@
 	<body>
 		<scene>
 
+			<mmd model="../../common/jthree/model/miku/index.pmx" />
+
 			<camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
-			    <light type="Dir" style="position: 1 3 5;" />
+				<light type="Dir" style="position: 1 3 5;" />
 			</camera>
 			<light type="Amb" style="lightColor: #555;" />
-			
+
 		</scene>
 	</body>
 </goml>
