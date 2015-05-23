@@ -1,20 +1,24 @@
 <goml>
 	<head>
-	    <geo type="Sphere" param="200 64 64" />
+	    <geo id="geo0" type="Sphere" param="200 64 64" />
 		<txr id="blueSky" src="../../common/jthree/img/sky.png" />
-		<mtl type="MeshBasic" param="map: #blueSky; side: 1;"/>
+		<mtl id="mtl0" type="MeshBasic" param="map: #blueSky; side: 1;"/>
 
-		<geo type="Circle" param="200 64" />
+		<geo id="geo1" type="Circle" param="200 64" />
 		<txr id="groundTxr" src="../../common/jthree/img/ground.jpg" param="repeat: 50; wrap: 0;" />
-		<mtl type="MeshLambert" param="map: #groundTxr;"/>
+		<mtl id="mtl1" type="MeshLambert" param="map: #groundTxr;"/>
+
+		<geo id="geo2" type="Circle" param="200 64" />
+		<txr id="EarthTxr" src="../../common/jthree/img/earth.jpg" />
+		<mtl id="mtl2" type="MeshPhong" param="map: #EarthTxr; bumpScale: 0.3; specular: #fff;"/>
 
 		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;" />
 	</head>
 	<body>
 		<scene>
-			<mesh geo="[type='Sphere']" mtl="[type='MeshBasic']" />
-			<mesh geo="[type='Circle']" mtl="[type='MeshLambert']" style="positionY: -.5; rotateX: -1.57;" />
-			
+			<mesh geo="#geo0" mtl="#mtl0" />
+			<mesh geo="#geo1" mtl="#mtl1" style="positionY: -.5; rotateX: -1.57;" />
+			<mesh geo="#geo2" mtl="#mtl2" style="positionZ: -10;">
 
 			<camera style="cameraFar: 100000; position: 0 13 20; lookAtY: 13;" />
 			<light type="Amb" />
