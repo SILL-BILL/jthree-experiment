@@ -24,7 +24,7 @@
 	<body>
 		<scene>
 
-			<mmd model="model/miku/index.pmx" />
+			<mmd model="model/miku/index.pmx" motion="motion/melt.vmd" onLoad="parent.jThree.MMD.play( true );" />
 			<mesh geo="#geo1" mtl="#mtl1" style="positionY: -10;"></mesh>
 			<sprite mtl="#mtl2" style="scale: 100; positionZ: -500;" />
 			<sprite mtl="#mtl3" style="scaleX: 3; positionY: 22;" />
