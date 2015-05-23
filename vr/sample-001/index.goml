@@ -4,6 +4,7 @@
 		<txr id="txr2" src="img/sun.jpg" />
 		<geo id="geo1" type="Sphere" param="10 64 64" />
 		<mtl id="mtl1" type="MeshPhong" param="map: #txr1; bumpScale: 0.3; specular: #fff;" />
+		<mtl id="mtl2" type="Sprite" param="map: #txr2;" />
 		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #000;" />
 	</head>
 	<body>
@@ -11,6 +12,8 @@
 
 			<mmd model="model/miku/index.pmx" />
 			<mesh geo="#geo1" mtl="#mtl1" style="positionY: -10;"></mesh>
+			<sprite mtl="#mtl2" />
+
 			<camera style="cameraFar: 10000; position: 2 18 30; lookAtY: 10;">
 				<light type="Dir" style="position: 1 3 5;" />
 			</camera>
