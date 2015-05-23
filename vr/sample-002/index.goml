@@ -16,9 +16,9 @@
 	</head>
 	<body>
 		<scene>
-			<mesh geo="#geo0" mtl="#mtl0" />
-			<mesh geo="#geo1" mtl="#mtl1" style="positionY: -.5; rotateX: -1.57;" />
-			<mesh geo="#geo2" mtl="#mtl2" style="positionZ: -20; positionY: 10;" />
+			<mesh id="mesh0" geo="#geo0" mtl="#mtl0" />
+			<mesh id="mesh1" geo="#geo1" mtl="#mtl1" style="positionY: -.5; rotateX: -1.57;" />
+			<mesh id="mesh2" geo="#geo2" mtl="#mtl2" style="positionZ: -20; positionY: 10;" />
 
 			<camera style="cameraFar: 100000; position: 0 13 20; lookAtY: 13;" />
 			<light type="Amb" />
