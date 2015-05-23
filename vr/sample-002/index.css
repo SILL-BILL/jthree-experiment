@@ -12,7 +12,15 @@ body {
 	width: 100%;
 	height: 100%;
 	background-color: rgba( 0, 0, 0, .7 );
-	background-image: url( "../../common/jthree/img/loading.gif" );
+	background-image: url( "img/loading.gif" );
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+audio {
+    position: fixed;
+    bottom: 20px;
+    width: 300px;
+    left: 50%;
+    margin-left: -150px;
 }
