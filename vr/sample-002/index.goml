@@ -15,7 +15,6 @@
 			<mesh geo="[type='Sphere']" mtl="[type='MeshBasic']" />
 			<mesh geo="[type='Circle']" mtl="[type='MeshLambert']" style="positionY: -.5; rotateX: -1.57;" />
 			
-			<mmd id="" model="../../common/jthree/model/miku/index.pmx" motion="../../common/jthree/motion/melt.vmd" style=""></mmd>
 
 			<camera style="cameraFar: 100000; position: 0 13 20; lookAtY: 13;" />
 			<light type="Amb" />
