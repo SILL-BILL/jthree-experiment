@@ -1,11 +1,21 @@
 <goml>
 	<head>
 
+		<geo id="geo0" type="Sphere" param="200 64 64" />
+		<txr id="blueSky" src="../../common/jthree/img/sky.png" />
+		<mtl id="mtl0" type="MeshBasic" param="map: #blueSky; side: 1;"/>
+
+		<geo id="geo1" type="Circle" param="200 64" />
+		<txr id="groundTxr" src="../../common/jthree/img/ground.jpg" param="repeat: 50; wrap: 0;" />
+		<mtl id="mtl1" type="MeshLambert" param="map: #groundTxr;"/>
 
 		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;" />
 	</head>
 	<body>
 		<scene>
+
+			<mesh id="mesh0" geo="#geo0" mtl="#mtl0" />
+			<mesh id="mesh1" geo="#geo1" mtl="#mtl1" style="positionY: -.5; rotateX: -1.57;" />
 
 			<obj model="../../common/jthree/model/monster/index.dae" style=""></obj>
 
