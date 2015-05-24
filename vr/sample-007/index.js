@@ -1,3 +1,5 @@
+document.documentElement.requestFullscreen();
+
 jThree( function( j3 ) {
 
 	$( "#loading" ).remove();
