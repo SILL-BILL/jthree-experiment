@@ -6,7 +6,7 @@
 	<body>
 		<scene>
 
-			<obj model="../../common/jthree/stage/kitchen/model.dae" style="scale: 1; positionZ: 0; positionX: 0;"></obj>
+			<obj model="../../common/jthree/stage/house-l/model.dae" style="scale: 1; positionZ: 0; positionX: 0;"></obj>
 			<obj model="../../common/jthree/stage/fukuya-room/fukuya.dae" style="scale: 1; positionZ: 0; positionX: 0;"></obj>
 
 
