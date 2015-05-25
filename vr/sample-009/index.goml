@@ -17,7 +17,7 @@
 			<mesh id="mesh0" geo="#geo0" mtl="#mtl0" />
 			<mesh id="mesh1" geo="#geo1" mtl="#mtl1" style="positionY: -.5; rotateX: -1.57;" />
 
-			<obj model="../../common/jthree/stage/house-m/model.dae" style="scale: 10; positionZ: 50; positionX: 100;"></obj>
+			<obj model="../../common/jthree/stage/house-m/model.dae" style="scale: 10; positionZ: 100; positionX: 80;"></obj>
 
 			<camera style="cameraFar: 10000; position: 0 13 20; lookAtY: 13;">
 				<light type="Dir" style="position: 1 3 5;" />
