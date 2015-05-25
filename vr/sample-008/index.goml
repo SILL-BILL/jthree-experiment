@@ -11,7 +11,7 @@
 
 
 			<camera style="cameraFar: 10000; position: 0 13 20; lookAtY: 13;">
-			    <light type="Dir" style="position: 1 3 5;" />
+				<light type="Dir" style="position: 1 3 5;" />
 			</camera>
 			<light type="Amb" style="lightColor: #555;" />
 			
