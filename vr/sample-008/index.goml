@@ -1,7 +1,7 @@
 <goml>
 	<head>
 
-		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #555;" />
+		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #333;" />
 	</head>
 	<body>
 		<scene>
