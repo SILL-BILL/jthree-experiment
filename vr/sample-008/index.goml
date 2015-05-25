@@ -7,6 +7,7 @@
 		<scene>
 
 			<obj model="../../common/jthree/model/dae_test/testcube.dae" style="scale: 1; positionZ: 0; positionX: 0;"></obj>
+			<obj model="../../common/jthree/model/pina/pina.dae" style="scale: 1; positionZ: 0; positionX: 0;"></obj>
 
 
 
