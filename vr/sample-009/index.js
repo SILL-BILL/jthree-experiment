@@ -4,8 +4,8 @@ jThree( function( j3 ) {
 
 	j3("#mesh0").animate( { rotateY: "+=5" }, 500000 );
 
-	j3.Trackball();
-//	j3.MobileVR();
+//	j3.Trackball();
+	j3.MobileVR();
 //	j3.Stereo();
 //	j3.Stats();
 
