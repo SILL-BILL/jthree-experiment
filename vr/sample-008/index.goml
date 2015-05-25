@@ -1,11 +1,12 @@
 <goml>
 	<head>
 
-		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #333;" />
+		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #555;" />
 	</head>
 	<body>
 		<scene>
 
+			<obj model="../../common/jthree/model/dae_test/testcube.dae" style="scale: 1; positionZ: 0; positionX: 0;"></obj>
 			<obj model="../../common/jthree/stage/hukuya-room/fukuya.dae" style="scale: 1; positionZ: 0; positionX: 0;"></obj>
 
 
