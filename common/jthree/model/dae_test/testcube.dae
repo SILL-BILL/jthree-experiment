@@ -17,7 +17,7 @@
   </asset>
   <library_images>
     <image id="file1-image" name="file1">
-      <init_from>file://C:/Users/CSRShimeji/Desktop/making05.jpg</init_from>
+      <init_from>./making05.jpg</init_from>
     </image>
   </library_images>
   <library_materials>
