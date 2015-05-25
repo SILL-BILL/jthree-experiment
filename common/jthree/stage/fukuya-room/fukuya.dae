@@ -2,18 +2,18 @@
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2015-05-25T07:19:23Z</created><keywords></keywords><modified>2015-05-25T07:19:23Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
   <library_images>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/door_wood.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/door_wood.jpg"><init_from>./door_wood.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/macbook.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/macbook.jpg"><init_from>./macbook.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book08.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book08.jpg"><init_from>./tana_book08.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book09.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book09.jpg"><init_from>./tana_book09.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book10.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book10.jpg"><init_from>./tana_book10.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book11.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book11.jpg"><init_from>./tana_book11.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book12.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book12.jpg"><init_from>./tana_book12.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book13.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book13.jpg"><init_from>./tana_book13.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book14.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book14.jpg"><init_from>./tana_book14.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book15.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book15.jpg"><init_from>./tana_book15.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book16.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book16.jpg"><init_from>./tana_book16.jpg</init_from></image>
-    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book17.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book17.jpg"><init_from>./tana_book17.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/door_wood.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/door_wood.jpg"><init_from>door_wood.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/macbook.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/macbook.jpg"><init_from>macbook.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book08.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book08.jpg"><init_from>tana_book08.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book09.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book09.jpg"><init_from>tana_book09.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book10.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book10.jpg"><init_from>tana_book10.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book11.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book11.jpg"><init_from>tana_book11.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book12.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book12.jpg"><init_from>tana_book12.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book13.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book13.jpg"><init_from>tana_book13.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book14.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book14.jpg"><init_from>tana_book14.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book15.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book15.jpg"><init_from>tana_book15.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book16.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book16.jpg"><init_from>tana_book16.jpg</init_from></image>
+    <image id="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book17.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/tana_book17.jpg"><init_from>tana_book17.jpg</init_from></image>
     <image id="/Users/kosuke/Desktop/fukuya_20150212/img/Finishes_Flooring_Rug_Braided1.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/Finishes_Flooring_Rug_Braided1.jpg"><init_from>./Finishes_Flooring_Rug_Braided1.jpg</init_from></image>
     <image id="/Users/kosuke/Desktop/fukuya_20150212/img/M_9615599_seamless_teak_texture.jpg-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/M_9615599_seamless_teak_texture.jpg"><init_from>./M_9615599_seamless_teak_texture.jpg</init_from></image>
     <image id="/Users/kosuke/Desktop/fukuya_20150212/img/PDM_Grey_alu_Apple_27_Display1.png-image" name="/Users/kosuke/Desktop/fukuya_20150212/img/PDM_Grey_alu_Apple_27_Display1.png"><init_from>./PDM_Grey_alu_Apple_27_Display1.png</init_from></image>
