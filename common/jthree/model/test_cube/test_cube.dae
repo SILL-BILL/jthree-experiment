@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
-  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2015-05-25T08:56:17Z</created><keywords></keywords><modified>2015-05-25T08:56:17Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2015-05-26T01:59:13Z</created><keywords></keywords><modified>2015-05-26T01:59:13Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
   <library_images>
-    <image id="file1-image" name="file1"><init_from>./making05.jpg</init_from></image>
+    <image id="file1-image" name="file1"><init_from>file://C:\Users\CSRShimeji\Desktop\test_cube\test_cube.fbm/making05.jpg</init_from></image>
   </library_images>
   <library_materials>
     <material id="lambert1" name="lambert1">
