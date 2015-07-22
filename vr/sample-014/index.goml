@@ -5,7 +5,7 @@
 	<body>
 		<scene>
 
-			<obj model="../../common/jthree/model/test_cube_02/cube.dae" style="scale: 1; positionY: 0; positionZ: 0; positionX: 0;"></obj>
+			<obj model="../../common/jthree/model/pina_02/pina.dae" style="scale: 1; positionY: 0; positionZ: 0; positionX: 0;"></obj>
 
 			<camera style="cameraFar: 10000; position: 30 13 30; lookAtY: 13;">
 				<light type="Dir" style="position: 1 3 5;" />
